@@ -42,7 +42,7 @@ int main(int argc, char *argv[]) {
     return -1;
   }
 
-  SDL_Surface *surface = SDL_LoadPNG("C:/Users/DELL/dev/BouncingBall/ball.png");
+  SDL_Surface *surface = SDL_LoadPNG("./ball.png");
 
   if (!surface) {
     SDL_Log("PNG loading failed: %s", SDL_GetError());
